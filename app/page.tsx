@@ -469,7 +469,7 @@ export default function Portfolio() {
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-4">
               <div className="w-16 h-16 rounded-full overflow-hidden bg-zinc-100 dark:bg-zinc-800">
-                <Image src="/favicon.jpg" alt="Aryan" width={100} height={100} className="w-full h-full object-cover" />
+                <Image src="/pfp.jpg" alt="Aryan" width={100} height={100} className="w-full h-full object-cover" />
               </div>
               <div>
                 <h1 className="text-lg font-bold text-zinc-900 dark:text-white mb-1">Aryan Sharma</h1>
