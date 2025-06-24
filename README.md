@@ -34,7 +34,7 @@ yarn install
 \`\`\`
 
 3. Add your profile image:
-   - Place your profile image as `PPFP.jpg` in the `public` folder
+   - Place your profile image as `PFP.jpg` in the `public` folder
 
 4. Run the development server:
 \`\`\`bash

@@ -8,6 +8,7 @@ import { ExternalLink, Github, Linkedin, Mail, MapPin, Moon, Sun } from "lucide-
 import { useTheme } from "next-themes"
 import { useEffect, useState } from "react"
 import { IconLetterR } from "@tabler/icons-react"
+import { FileText } from "lucide-react"
 
 // LeetCode icon component
 const LeetCodeIcon = ({ className }: { className?: string }) => (
@@ -468,7 +469,7 @@ export default function Portfolio() {
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-4">
               <div className="w-16 h-16 rounded-full overflow-hidden bg-zinc-100 dark:bg-zinc-800">
-                <Image src="/PPFP.jpg" alt="Aryan" width={100} height={100} className="w-full h-full object-cover" />
+                <Image src="/favicon.jpg" alt="Aryan" width={100} height={100} className="w-full h-full object-cover" />
               </div>
               <div>
                 <h1 className="text-lg font-bold text-zinc-900 dark:text-white mb-1">Aryan Sharma</h1>
@@ -701,6 +702,16 @@ export default function Portfolio() {
               >
                 <Mail className="w-3 h-3 mr-1.5" />
                 Email
+              </Button>
+            </a>
+            <a href="/resume.pdf" target="_blank" rel="noopener noreferrer">
+              <Button
+                variant="outline"
+                size="sm"
+                className="bg-white dark:bg-zinc-800 text-zinc-700 dark:text-zinc-300 border-zinc-300 dark:border-zinc-600 hover:bg-zinc-50 dark:hover:bg-zinc-700 text-xs"
+              >
+                <FileText className="w-3 h-3 mr-1.5" />
+                Resume
               </Button>
             </a>
           </div>

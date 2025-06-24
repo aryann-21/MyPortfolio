@@ -13,9 +13,9 @@ export const metadata: Metadata = {
   authors: [{ name: "Aryan Sharma" }],
   creator: "Aryan Sharma",
   icons: {
-    icon: "/PPFP.jpg",
-    shortcut: "/PPFP.jpg",
-    apple: "/PPFP.jpg",
+    icon: "/favicon.jpg",
+    shortcut: "/favicon.jpg",
+    apple: "/favicon.jpg",
   },
   openGraph: {
     type: "website",
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
     siteName: "Aryan Sharma Portfolio",
     images: [
       {
-        url: "/PPFP.jpg",
+        url: "/favicon.jpg",
         width: 400,
         height: 400,
         alt: "Aryan Sharma",
@@ -37,7 +37,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Aryan Sharma - Portfolio",
     description: "Software Engineer | Web Developer | Problem Solver",
-    images: ["/PPFP.jpg"],
+    images: ["/favicon.jpg"],
   },
 }
 
