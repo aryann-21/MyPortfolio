@@ -1,36 +1,100 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Aryan Sharma - Portfolio
+
+A modern, responsive portfolio website built with Next.js 14, TypeScript, and Tailwind CSS.
+
+## Features
+
+- 🌙 Dark/Light mode toggle
+- 📱 Fully responsive design
+- ⚡ Built with Next.js 14 App Router
+- 🎨 Styled with Tailwind CSS and shadcn/ui
+- 🔧 TypeScript for type safety
+- 🚀 Optimized for performance
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
 
-```bash
+- Node.js 18+ 
+- npm or yarn
+
+### Installation
+
+1. Clone the repository:
+\`\`\`bash
+git clone https://github.com/your-username/portfolio.git
+cd portfolio
+\`\`\`
+
+2. Install dependencies:
+\`\`\`bash
+npm install
+# or
+yarn install
+\`\`\`
+
+3. Add your profile image:
+   - Place your profile image as `PPFP.jpg` in the `public` folder
+
+4. Run the development server:
+\`\`\`bash
 npm run dev
 # or
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+\`\`\`
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+5. Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Customization
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Personal Information
+Edit the content in `app/page.tsx`:
+- Update personal details, education, projects, and skills
+- Modify social media links
+- Add or remove sections as needed
 
-## Learn More
+### Styling
+- Colors and themes can be customized in `tailwind.config.js`
+- Global styles are in `app/globals.css`
 
-To learn more about Next.js, take a look at the following resources:
+### Adding Projects
+Add new projects to the `projects` array in `app/page.tsx`:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+\`\`\`typescript
+{
+  title: "Project Name",
+  year: "2024",
+  oneLiner: "Brief description",
+  category: "Full-Stack",
+  technologies: ["React", "Node.js"],
+  details: ["Detail 1", "Detail 2"],
+  github: "https://github.com/username/repo",
+  preview: "https://your-demo-url.com"
+}
+\`\`\`
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Deployment
 
-## Deploy on Vercel
+### Vercel (Recommended)
+1. Push your code to GitHub
+2. Connect your repository to Vercel
+3. Deploy with one click
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Other Platforms
+The app can be deployed to any platform that supports Next.js:
+- Netlify
+- Railway
+- DigitalOcean App Platform
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Built With
+
+- [Next.js 14](https://nextjs.org/) - React framework
+- [TypeScript](https://www.typescriptlang.org/) - Type safety
+- [Tailwind CSS](https://tailwindcss.com/) - Styling
+- [shadcn/ui](https://ui.shadcn.com/) - UI components
+- [Lucide React](https://lucide.dev/) - Icons
+- [next-themes](https://github.com/pacocoursey/next-themes) - Theme switching
+
+## License
+
+This project is open source and available under the [MIT License](LICENSE).
