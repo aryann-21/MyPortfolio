@@ -62,11 +62,11 @@ const GoogleCloudIcon = () => (
 )
 
 const HTMLIcon = () => (
-  <svg 
-    xmlns="http://www.w3.org/2000/svg" 
-    fill="currentColor" 
-    height="1em" 
-    width="1em" 
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    fill="currentColor"
+    height="1em"
+    width="1em"
     viewBox="0 0 124 141.532"
     className="text-black dark:text-white"
   >
@@ -77,25 +77,25 @@ const HTMLIcon = () => (
 );
 
 const CSSIcon = () => (
-  <svg 
-    xmlns="http://www.w3.org/2000/svg" 
-    fill="currentColor" 
-    height="1em" 
-    width="1em" 
-    viewBox="0 0 124 141.53" 
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    fill="currentColor"
+    height="1em"
+    width="1em"
+    viewBox="0 0 124 141.53"
     className="text-black dark:text-white"
   >
-    <path 
-      d="M10.383 126.892L0 0l124 .255-10.979 126.637-50.553 14.638z" 
-      opacity="0.1" 
+    <path
+      d="M10.383 126.892L0 0l124 .255-10.979 126.637-50.553 14.638z"
+      opacity="0.1"
     />
-    <path 
-      d="M62.468 129.275V12.085l51.064.17-9.106 104.85z" 
-      opacity="0.1" 
+    <path
+      d="M62.468 129.275V12.085l51.064.17-9.106 104.85z"
+      opacity="0.1"
     />
-    <path 
-      d="M100.851 27.064H22.298l2.128 15.318h37.276l-36.68 15.745 2.127 14.808h54.043l-1.958 20.68-18.298 3.575-16.595-4.255-1.277-11.745H27.83l2.042 24.426 32.681 9.106 31.32-9.957 4-47.745H64.765l36.085-14.978z" 
-      opacity="0.75" 
+    <path
+      d="M100.851 27.064H22.298l2.128 15.318h37.276l-36.68 15.745 2.127 14.808h54.043l-1.958 20.68-18.298 3.575-16.595-4.255-1.277-11.745H27.83l2.042 24.426 32.681 9.106 31.32-9.957 4-47.745H64.765l36.085-14.978z"
+      opacity="0.75"
     />
   </svg>
 );
@@ -388,97 +388,97 @@ export default function Portfolio() {
   }
 
   const projects = [
-  {
-    title: "CampusCabs",
-    year: "2024",
-    oneLiner: "Auto Rickshaw Booking & Ride-Sharing Application",
-    category: "Full-Stack",
-    technologies: ["MERN", "Twilio", "SendGrid", "Framer Motion"],
-    details: [
-      "Developed a web application for NITJ students, enabling 1000+ users to book rides efficiently and achieving 90% peak-hour ride availability by onboarding 10+ local drivers, reducing commuting costs by 25%.",
-      "Enhanced UI/UX and backend performance, boosting user engagement by 20%, using Framer Motion for smooth transitions and Twilio for real-time messaging.",
-      "Implemented secure JWT-based authentication and a driver dashboard for managing ride availability."
-    ],
-    github: "https://github.com/aryann-21/campuscabs",
-    preview: "https://deployed-frontend.onrender.com/",
-  },
-  {
-    title: "WoLamhe",
-    year: "2025",
-    oneLiner: "Personalized Photo Printing Platform",
-    category: "Full-Stack",
-    technologies: ["MERN", "Cloudinary", "NodeMailer", "MongoDB Atlas"],
-    details: [
-      "Collaborated with a business to develop a web platform for custom photo prints, targeting 100+ orders monthly and optimizing backend operations to reduce fulfillment time by 20%.",
-      "Designed a scalable database to streamline order processing and enable real-time tracking, enhancing overall user experience by 60%.",
-      "Integrated Cloudinary for image uploads and implemented automated order notifications via email."
-    ],
-    github: "https://github.com/aryann-21/wolamhe",
-    preview: "https://www.wolamhe.in",
-  },
-  {
-    title: "Emotify",
-    year: "2024",
-    oneLiner: "Emotion-Based Music Recommendation App",
-    category: "Full-Stack",
-    technologies: ["face-api.js", "Spotify API", "React.js", "Express.js"],
-    details: [
-      "Built an AI-driven music recommendation system with 90% classification accuracy, leveraging face-api.js for emotion detection and Spotify API for personalized playlist curation.",
-      "Refined recommendation logic, boosting user satisfaction by 15% and improving retention by 10%.",
-      "Used React Webcam and face landmarks to dynamically detect and process user emotions in real time."
-    ],
-    github: "https://github.com/aryann-21/emotify",
-    preview: "https://emotify-frontend.onrender.com",
-  },
-  {
-    title: "NoteFlix",
-    year: "2023",
-    oneLiner: "Netflix-style platform for lecture notes",
-    category: "Backend",
-    technologies: ["Express.js", "EJS", "Mongoose", "Node.js"],
-    details: [
-      "Built a responsive and intuitive frontend using React.js and Tailwind CSS for accessing and organizing lecture notes in a Netflix-style UI.",
-      "Implemented dynamic routing and modular components to simplify note navigation and improve overall usability.",
-      "Connected to MongoDB for storing note metadata and user-uploaded content in a structured format."
-    ],
-    github: "https://github.com/aryann-21/NoteFlix",
-    preview: null,
-  },
-  {
-    title: "WordQuest",
-    year: "2023",
-    oneLiner: "Word-guessing game inspired by Wordle",
-    category: "Frontend",
-    technologies: ["HTML", "CSS", "JavaScript"],
-    details: [
-      "Developed an interactive browser-based word-guessing game using React.js, focusing on clean UI and user feedback integration.",
-      "Managed state transitions, error handling, and scoring logic to enhance user engagement.",
-      "Styled the interface for clarity and responsiveness using plain CSS without relying on any frameworks."
-    ],
-    github: "https://github.com/aryann-21/WordQuest",
-    preview: null,
-  },
-];
+    {
+      title: "CampusCabs",
+      year: "2024",
+      oneLiner: "Auto Rickshaw Booking & Ride-Sharing Application",
+      category: "Full-Stack",
+      technologies: ["MERN", "Twilio", "SendGrid", "Framer Motion"],
+      details: [
+        "Developed a web application for NITJ students, enabling 1000+ users to book rides efficiently and achieving 90% peak-hour ride availability by onboarding 10+ local drivers, reducing commuting costs by 25%.",
+        "Enhanced UI/UX and backend performance, boosting user engagement by 20%, using Framer Motion for smooth transitions and Twilio for real-time messaging.",
+        "Implemented secure JWT-based authentication and a driver dashboard for managing ride availability."
+      ],
+      github: "https://github.com/aryann-21/campuscabs",
+      preview: "https://deployed-frontend.onrender.com/",
+    },
+    {
+      title: "WoLamhe",
+      year: "2025",
+      oneLiner: "Personalized Photo Printing Platform",
+      category: "Full-Stack",
+      technologies: ["MERN", "Cloudinary", "NodeMailer", "MongoDB Atlas"],
+      details: [
+        "Collaborated with a business to develop a web platform for custom photo prints, targeting 100+ orders monthly and optimizing backend operations to reduce fulfillment time by 20%.",
+        "Designed a scalable database to streamline order processing and enable real-time tracking, enhancing overall user experience by 60%.",
+        "Integrated Cloudinary for image uploads and implemented automated order notifications via email."
+      ],
+      github: "https://github.com/aryann-21/wolamhe",
+      preview: "https://www.wolamhe.in",
+    },
+    {
+      title: "Emotify",
+      year: "2024",
+      oneLiner: "Emotion-Based Music Recommendation App",
+      category: "Full-Stack",
+      technologies: ["face-api.js", "Spotify API", "React.js", "Express.js"],
+      details: [
+        "Built an AI-driven music recommendation system with 90% classification accuracy, leveraging face-api.js for emotion detection and Spotify API for personalized playlist curation.",
+        "Refined recommendation logic, boosting user satisfaction by 15% and improving retention by 10%.",
+        "Used React Webcam and face landmarks to dynamically detect and process user emotions in real time."
+      ],
+      github: "https://github.com/aryann-21/emotify",
+      preview: "https://emotify-frontend.onrender.com",
+    },
+    {
+      title: "NoteFlix",
+      year: "2023",
+      oneLiner: "Netflix-style platform for lecture notes",
+      category: "Backend",
+      technologies: ["Express.js", "EJS", "Mongoose", "Node.js"],
+      details: [
+        "Built a responsive and intuitive frontend using React.js and Tailwind CSS for accessing and organizing lecture notes in a Netflix-style UI.",
+        "Implemented dynamic routing and modular components to simplify note navigation and improve overall usability.",
+        "Connected to MongoDB for storing note metadata and user-uploaded content in a structured format."
+      ],
+      github: "https://github.com/aryann-21/NoteFlix",
+      preview: null,
+    },
+    {
+      title: "WordQuest",
+      year: "2023",
+      oneLiner: "Word-guessing game inspired by Wordle",
+      category: "Frontend",
+      technologies: ["HTML", "CSS", "JavaScript"],
+      details: [
+        "Developed an interactive browser-based word-guessing game using React.js, focusing on clean UI and user feedback integration.",
+        "Managed state transitions, error handling, and scoring logic to enhance user engagement.",
+        "Styled the interface for clarity and responsiveness using plain CSS without relying on any frameworks."
+      ],
+      github: "https://github.com/aryann-21/WordQuest",
+      preview: null,
+    },
+  ];
 
 
   return (
     <div className="min-h-screen bg-white dark:bg-zinc-900 transition-colors">
       {/* Header - Matching Deepak's Layout */}
       <header className="border-b border-zinc-100 dark:border-zinc-800">
-        <div className="max-w-3xl mx-auto px-6 py-6">
-          <div className="flex items-center justify-between">
-            <div className="flex items-center gap-4">
-              <div className="w-16 h-16 rounded-full overflow-hidden bg-zinc-100 dark:bg-zinc-800">
+        <div className="max-w-3xl mx-auto px-4 sm:px-6 py-6">
+          <div className="flex flex-col sm:flex-row items-center sm:items-center justify-between gap-4 sm:gap-0">
+            <div className="flex flex-col sm:flex-row items-center gap-4 w-full sm:w-auto">
+              <div className="w-20 h-20 sm:w-16 sm:h-16 rounded-full overflow-hidden bg-zinc-100 dark:bg-zinc-800 flex-shrink-0">
                 <Image src="/pfp.jpg" alt="Aryan" width={100} height={100} className="w-full h-full object-cover" />
               </div>
-              <div>
-                <h1 className="text-lg font-bold text-zinc-900 dark:text-white mb-1">Aryan Sharma</h1>
+              <div className="text-center sm:text-left">
+                <h1 className="text-xl sm:text-lg font-bold text-zinc-900 dark:text-white mb-1">Aryan Sharma</h1>
                 <p className="text-sm text-zinc-600 dark:text-zinc-300">
                   Software Engineer | Web Developer | Problem Solver
                 </p>
               </div>
             </div>
-            <div className="flex items-center gap-3">
+            <div className="flex flex-wrap justify-center sm:justify-end items-center gap-2 sm:gap-3 w-full sm:w-auto">
               <a href="https://github.com/aryann-21" target="_blank" rel="noopener noreferrer">
                 <Button
                   variant="ghost"
@@ -521,11 +521,11 @@ export default function Portfolio() {
         </div>
       </header>
 
-      <main className="max-w-3xl mx-auto px-6 py-10 space-y-12">
+      <main className="max-w-3xl mx-auto px-4 sm:px-6 py-8 sm:py-10 space-y-10 sm:space-y-12">
         {/* About */}
         <section>
-          <h2 className="text-lg font-semibold text-zinc-900 dark:text-white mb-4">About Me</h2>
-          <div className="text-sm space-y-3 text-zinc-700 dark:text-zinc-300 leading-relaxed">
+          <h2 className="text-lg sm:text-xl font-semibold text-zinc-900 dark:text-white mb-3 sm:mb-4">About Me</h2>
+          <div className="text-sm sm:text-base space-y-2 sm:space-y-3 text-zinc-700 dark:text-zinc-300 leading-relaxed">
             <p>
               Hey there! I'm Aryan Sharma, a Computer Science undergrad at NIT Jalandhar with a strong focus on software
               engineering and full-stack web development. I'm passionate about building efficient systems and turning
@@ -544,12 +544,12 @@ export default function Portfolio() {
 
         {/* Education */}
         <section>
-          <h2 className="text-lg font-semibold text-zinc-900 dark:text-white mb-4">Education</h2>
+          <h2 className="text-lg sm:text-xl font-semibold text-zinc-900 dark:text-white mb-3 sm:mb-4">Education</h2>
           <Card className="border-zinc-200 dark:border-zinc-700 dark:bg-zinc-800">
-            <CardHeader className="pb-3">
-              <div className="flex justify-between items-start">
+            <CardHeader className="pb-2 sm:pb-3">
+              <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-2 sm:gap-0">
                 <div>
-                  <CardTitle className="text-base dark:text-white">
+                  <CardTitle className="text-base sm:text-lg dark:text-white">
                     Dr. B.R. Ambedkar National Institute of Technology
                   </CardTitle>
                   <CardDescription className="flex items-center gap-2 mt-1 dark:text-zinc-400 text-sm">
@@ -573,21 +573,20 @@ export default function Portfolio() {
 
         {/* Projects */}
         <section>
-          <h2 className="text-lg font-semibold text-zinc-900 dark:text-white mb-4">My Work</h2>
+          <h2 className="text-lg sm:text-xl font-semibold text-zinc-900 dark:text-white mb-3 sm:mb-4">My Work</h2>
           <div className="space-y-4">
             {projects.map((project, index) => (
               <Card key={index} className="border-zinc-200 dark:border-zinc-700 dark:bg-zinc-800">
-                <CardHeader className="pb-3">
-                  <div className="flex justify-between items-start gap-4">
-                    <div className="flex-1">
-                      <div className="flex items-center gap-2 mb-1">
-                        <CardTitle className="text-base dark:text-white">{project.title}</CardTitle>
+                <CardHeader className="pb-2 sm:pb-3">
+                  <div className="flex flex-col sm:flex-row justify-between items-start gap-2 sm:gap-4">
+                    <div className="flex-1 w-full">
+                      <div className="flex flex-col sm:flex-row items-start sm:items-center gap-1 sm:gap-2 mb-1">
+                        <CardTitle className="text-base sm:text-lg dark:text-white">{project.title}</CardTitle>
                         <span className="text-sm text-zinc-600 dark:text-zinc-400">• {project.oneLiner}</span>
                       </div>
                       <div className="text-xs text-zinc-500 dark:text-zinc-500 mb-2">
                         {project.category} • {project.year}
                       </div>
-
                       {/* Project Technologies */}
                       <div className="flex flex-wrap gap-1">
                         {project.technologies.map((tech) => (
@@ -601,7 +600,7 @@ export default function Portfolio() {
                         ))}
                       </div>
                     </div>
-                    <div className="flex gap-2">
+                    <div className="flex flex-row flex-wrap gap-2 w-full sm:w-auto justify-start sm:justify-end">
                       <Button
                         variant="ghost"
                         size="sm"
@@ -626,7 +625,7 @@ export default function Portfolio() {
                   </div>
                 </CardHeader>
                 <CardContent className="pt-0">
-                  <ul className="space-y-2 text-xs text-zinc-700 dark:text-zinc-300">
+                  <ul className="space-y-2 text-xs sm:text-sm text-zinc-700 dark:text-zinc-300">
                     {project.details.map((detail, idx) => (
                       <li key={idx} className="flex items-start gap-2">
                         <span className="w-1 h-1 bg-zinc-400 dark:bg-zinc-500 rounded-full mt-1.5 flex-shrink-0"></span>
@@ -642,11 +641,11 @@ export default function Portfolio() {
 
         {/* Skills */}
         <section>
-          <h2 className="text-lg font-semibold text-zinc-900 dark:text-white mb-4">My Skills</h2>
-          <div className="space-y-4">
+          <h2 className="text-lg sm:text-xl font-semibold text-zinc-900 dark:text-white mb-3 sm:mb-4">My Skills</h2>
+          <div className="space-y-3 sm:space-y-4">
             {Object.entries(skills).map(([category, items]) => (
               <div key={category}>
-                <h3 className="text-xs font-medium text-zinc-500 dark:text-zinc-400 uppercase tracking-wide mb-2">
+                <h3 className="text-xs font-medium text-zinc-500 dark:text-zinc-400 uppercase tracking-wide mb-1 sm:mb-2">
                   {category}
                 </h3>
                 <div className="flex flex-wrap gap-1.5">
@@ -672,13 +671,13 @@ export default function Portfolio() {
 
         {/* Contact */}
         <section>
-          <h2 className="text-lg font-semibold text-zinc-900 dark:text-white mb-4">Contact Me</h2>
-          <div className="flex items-center gap-3">
+          <h2 className="text-lg sm:text-xl font-semibold text-zinc-900 dark:text-white mb-3 sm:mb-4">Contact Me</h2>
+          <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-2 sm:gap-3 flex-wrap">
             <a href="https://github.com/aryann-21" target="_blank" rel="noopener noreferrer">
               <Button
                 variant="outline"
                 size="sm"
-                className="bg-white dark:bg-zinc-800 text-zinc-700 dark:text-zinc-300 border-zinc-300 dark:border-zinc-600 hover:bg-zinc-50 dark:hover:bg-zinc-700 text-xs"
+                className="bg-white dark:bg-zinc-800 text-zinc-700 dark:text-zinc-300 border-zinc-300 dark:border-zinc-600 hover:bg-zinc-50 dark:hover:bg-zinc-700 text-xs w-full sm:w-auto"
               >
                 <Github className="w-3 h-3 mr-1.5" />
                 GitHub
@@ -688,7 +687,7 @@ export default function Portfolio() {
               <Button
                 variant="outline"
                 size="sm"
-                className="bg-white dark:bg-zinc-800 text-zinc-700 dark:text-zinc-300 border-zinc-300 dark:border-zinc-600 hover:bg-zinc-50 dark:hover:bg-zinc-700 text-xs"
+                className="bg-white dark:bg-zinc-800 text-zinc-700 dark:text-zinc-300 border-zinc-300 dark:border-zinc-600 hover:bg-zinc-50 dark:hover:bg-zinc-700 text-xs w-full sm:w-auto"
               >
                 <Linkedin className="w-3 h-3 mr-1.5" />
                 LinkedIn
@@ -698,7 +697,7 @@ export default function Portfolio() {
               <Button
                 variant="outline"
                 size="sm"
-                className="bg-white dark:bg-zinc-800 text-zinc-700 dark:text-zinc-300 border-zinc-300 dark:border-zinc-600 hover:bg-zinc-50 dark:hover:bg-zinc-700 text-xs"
+                className="bg-white dark:bg-zinc-800 text-zinc-700 dark:text-zinc-300 border-zinc-300 dark:border-zinc-600 hover:bg-zinc-50 dark:hover:bg-zinc-700 text-xs w-full sm:w-auto"
               >
                 <Mail className="w-3 h-3 mr-1.5" />
                 Email
@@ -708,7 +707,7 @@ export default function Portfolio() {
               <Button
                 variant="outline"
                 size="sm"
-                className="bg-white dark:bg-zinc-800 text-zinc-700 dark:text-zinc-300 border-zinc-300 dark:border-zinc-600 hover:bg-zinc-50 dark:hover:bg-zinc-700 text-xs"
+                className="bg-white dark:bg-zinc-800 text-zinc-700 dark:text-zinc-300 border-zinc-300 dark:border-zinc-600 hover:bg-zinc-50 dark:hover:bg-zinc-700 text-xs w-full sm:w-auto"
               >
                 <FileText className="w-3 h-3 mr-1.5" />
                 Resume
@@ -719,8 +718,8 @@ export default function Portfolio() {
       </main>
 
       {/* Footer */}
-      <footer className="border-t border-zinc-100 dark:border-zinc-800 mt-12">
-        <div className="max-w-3xl mx-auto px-6 py-6 text-center">
+      <footer className="border-t border-zinc-100 dark:border-zinc-800 mt-8 sm:mt-12">
+        <div className="max-w-3xl mx-auto px-4 sm:px-6 py-6 text-center">
           <p className="text-xs text-zinc-500 dark:text-zinc-400">hope you liked it ;)</p>
         </div>
       </footer>
