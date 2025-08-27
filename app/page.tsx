@@ -377,14 +377,10 @@ function ThemeToggle() {
 
 export default function Portfolio() {
   const skills = {
-    "Programming Languages": ["C++", "Python"],
-    "Frontend": ["JavaScript", "TypeScript", "React.js", "Next.js", "HTML", "CSS", "Tailwind CSS"],
-    "Backend": [
-      "Node.js",
-      "Express.js",
-      "Google Cloud (GCP)", "MongoDB (NoSQL)", "Mongoose", "MySQL (SQL)", "R"
-    ],
-    "Developer Tools": ["Git", "GitHub", "Postman", "VS Code"],
+    "Programming Languages": ["C++", "Python(basics)"],
+    "Web Development": ["React.js", "Node.js", "Node.js", "Express.js", "JavaScript", "HTML", "CSS", "Tailwind CSS"],
+    "Databases & ODM": ["MongoDB", "Mongoose", "MySQL"],
+    "Developer Tools": ["Git", "GitHub", "Postman"],
   }
 
   const projects = [
@@ -400,7 +396,7 @@ export default function Portfolio() {
         "Implemented secure JWT-based authentication and a driver dashboard for managing ride availability."
       ],
       github: "https://github.com/aryann-21/campuscabs",
-      preview: "https://deployed-frontend.onrender.com/",
+      preview: "https://campuscabs-frontend-aryann-21-aryann-21s-projects.vercel.app/",
     },
     {
       title: "WoLamhe",
@@ -414,7 +410,7 @@ export default function Portfolio() {
         "Integrated Cloudinary for image uploads and implemented automated order notifications via email."
       ],
       github: "https://github.com/aryann-21/wolamhe",
-      preview: "https://www.wolamhe.in",
+      preview: "wolamhe-4.onrender.com/",
     },
     {
       title: "Emotify",
@@ -533,7 +529,7 @@ export default function Portfolio() {
             </p>
             <p>
               Whether it's writing backend APIs, designing clean user interfaces, or solving complex programming
-              problems—I'm all in. I love the challenge and creativity that comes with every line of code.
+              problems - I'm all in. I love the challenge and creativity that comes with every line of code.
             </p>
             <p>
               When I'm not coding, you'll find me playing basketball ;) also diving into story-driven computer games, or
@@ -566,7 +562,7 @@ export default function Portfolio() {
               <p className="text-sm text-zinc-700 dark:text-zinc-300">
                 Bachelor of Technology in Computer Science and Engineering
               </p>
-              <p className="text-xs text-zinc-600 dark:text-zinc-400 mt-1">CGPA: 8.53 / 10.0</p>
+              <p className="text-xs text-zinc-600 dark:text-zinc-400 mt-1">CGPA: 8.60 / 10.0</p>
             </CardContent>
           </Card>
         </section>
