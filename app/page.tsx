@@ -410,7 +410,7 @@ export default function Portfolio() {
         "Integrated Cloudinary for image uploads and implemented automated order notifications via email."
       ],
       github: "https://github.com/aryann-21/wolamhe",
-      preview: "wolamhe-4.onrender.com/",
+      preview: "https://wolamhe-4.onrender.com/",
     },
     {
       title: "Emotify",
